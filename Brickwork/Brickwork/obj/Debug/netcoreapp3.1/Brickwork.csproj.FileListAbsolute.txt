@@ -1,0 +1,12 @@
+C:\Users\dimit\OneDrive\Documents\Visual Studio 2019\Projects\MentorMate-DevCamp-Brickwork\Brickwork\Brickwork\bin\Debug\netcoreapp3.1\Brickwork.exe
+C:\Users\dimit\OneDrive\Documents\Visual Studio 2019\Projects\MentorMate-DevCamp-Brickwork\Brickwork\Brickwork\bin\Debug\netcoreapp3.1\Brickwork.deps.json
+C:\Users\dimit\OneDrive\Documents\Visual Studio 2019\Projects\MentorMate-DevCamp-Brickwork\Brickwork\Brickwork\bin\Debug\netcoreapp3.1\Brickwork.runtimeconfig.json
+C:\Users\dimit\OneDrive\Documents\Visual Studio 2019\Projects\MentorMate-DevCamp-Brickwork\Brickwork\Brickwork\bin\Debug\netcoreapp3.1\Brickwork.runtimeconfig.dev.json
+C:\Users\dimit\OneDrive\Documents\Visual Studio 2019\Projects\MentorMate-DevCamp-Brickwork\Brickwork\Brickwork\bin\Debug\netcoreapp3.1\Brickwork.dll
+C:\Users\dimit\OneDrive\Documents\Visual Studio 2019\Projects\MentorMate-DevCamp-Brickwork\Brickwork\Brickwork\bin\Debug\netcoreapp3.1\Brickwork.pdb
+C:\Users\dimit\OneDrive\Documents\Visual Studio 2019\Projects\MentorMate-DevCamp-Brickwork\Brickwork\Brickwork\obj\Debug\netcoreapp3.1\Brickwork.csprojAssemblyReference.cache
+C:\Users\dimit\OneDrive\Documents\Visual Studio 2019\Projects\MentorMate-DevCamp-Brickwork\Brickwork\Brickwork\obj\Debug\netcoreapp3.1\Brickwork.AssemblyInfoInputs.cache
+C:\Users\dimit\OneDrive\Documents\Visual Studio 2019\Projects\MentorMate-DevCamp-Brickwork\Brickwork\Brickwork\obj\Debug\netcoreapp3.1\Brickwork.AssemblyInfo.cs
+C:\Users\dimit\OneDrive\Documents\Visual Studio 2019\Projects\MentorMate-DevCamp-Brickwork\Brickwork\Brickwork\obj\Debug\netcoreapp3.1\Brickwork.dll
+C:\Users\dimit\OneDrive\Documents\Visual Studio 2019\Projects\MentorMate-DevCamp-Brickwork\Brickwork\Brickwork\obj\Debug\netcoreapp3.1\Brickwork.pdb
+C:\Users\dimit\OneDrive\Documents\Visual Studio 2019\Projects\MentorMate-DevCamp-Brickwork\Brickwork\Brickwork\obj\Debug\netcoreapp3.1\Brickwork.genruntimeconfig.cache
