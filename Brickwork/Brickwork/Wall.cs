@@ -74,11 +74,11 @@ namespace Brickwork
                     {
                         if (template[row, col] != template[row - 1, col])
                         {
-                            Console.Write("* ");
+                            Console.Write("**");
                         }
-                        else
+                        else if (col < this.Cols - 1)
                         {
-                            Console.Write("    ");
+                            Console.Write(" *");
                         }
                     }
                 }
@@ -96,7 +96,7 @@ namespace Brickwork
                         }
                         else
                         {
-                            Console.Write(template[row, col] + " * ");
+                            Console.Write(template[row, col] + "*");
                         }
                     }
                     else
