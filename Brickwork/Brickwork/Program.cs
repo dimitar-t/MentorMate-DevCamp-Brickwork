@@ -9,25 +9,39 @@ namespace Brickwork
     {
         static void Main(string[] args)
         {
-            int[] dimensions = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
-            int rows = dimensions[0];
-            int cols = dimensions[1];
+            int rows, cols;
 
-            if (!ValidateDimensions(rows, cols))
+            while (true)
             {
-                Console.WriteLine("The dimensions must be between 2 and 100 and they must be even numbers.");
+                Console.Write("Input the dimensions of the first layer of bricks: ");
+                int[] dimensions = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
+                rows = dimensions[0];
+                cols = dimensions[1];
 
-                return;
+                if (ValidateDimensions(rows, cols))
+                {
+                    break;
+                }
+
+                Console.WriteLine("The dimensions must be between 2 and 100 and they must be even numbers. Try again.");
+
             }
 
-            Wall firstLayer = CreateFirstLayer(rows, cols);
+            Wall firstLayer;
 
-            // validate the bricks
-            if (firstLayer.Count != (rows * cols) / 2)
+            while (true)
             {
-                Console.WriteLine("All bricks must be of size 1x2 or 2x1.");
+                Console.WriteLine("\nInput the first layer of bricks:");
 
-                return;
+                firstLayer = CreateFirstLayer(rows, cols);
+
+                // validate the bricks
+                if (firstLayer.Count == (rows * cols) / 2)
+                {
+                    break;
+                }
+
+                Console.WriteLine("All bricks must be of size 1x2 or 2x1. Try again.");
             }
 
             Wall secondLayer = CreateSecondLayer(firstLayer, rows, cols);
@@ -42,8 +56,6 @@ namespace Brickwork
 
             Console.WriteLine();
             secondLayer.PrintWall();
-
-            return;
         }
 
         // validate the inputted dimensions
